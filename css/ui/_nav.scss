@@ -1,18 +1,41 @@
+.nav__toggle {
+	text-decoration: none;
+	font-size: 2em;
+	position: absolute;
+	top: 0;
+	right: 1em;
+}
+
 .nav {
+	display: none;
+
 	ul {
 		list-style-type: none;
+		text-align: center;
 
 		li {
-			display: inline-block;
 			padding: 0 1em;
 		}
 	}	
 }
 
 @media screen and (min-width: 768px){
+
+	.nav__toggle {
+		display: none;
+		position: relative;
+	}
+
 	.nav{
+		display: block;
+
 		ul {
 			text-align: right;
+			padding-top: .5em;
+
+			li {
+				display: inline-block;
+			}
 		}
 	}
 }

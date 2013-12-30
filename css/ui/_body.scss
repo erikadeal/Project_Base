@@ -5,3 +5,9 @@ BASIC BODY STYLES
 body {
 	font-family: $serif;
 }
+
+.container {
+	 display: table;
+	height: 100%;
+	width: 100%;
+}

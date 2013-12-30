@@ -2,7 +2,15 @@
 Base Layout and Text
 *********************/
 
+html, body {
+	height: 100%;
+}
+
 .wrap {
-	width: 96%;
+	padding: 0 2%;
 	margin: 0 auto;
+}
+
+.first {
+	padding-left: 0;
 }

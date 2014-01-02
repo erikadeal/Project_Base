@@ -6,10 +6,18 @@
 	right: 1em;
 }
 
+<<<<<<< HEAD
 nav {
 	display: none;
 
 	.nav {
+=======
+.nav {
+	display: none;
+
+	ul {
+		list-style-type: none;
+>>>>>>> 652c9717724c8d78d40246a7331a85b93320391d
 		text-align: center;
 
 		li {
@@ -20,15 +28,26 @@ nav {
 }
 
 @media screen and (min-width: 768px){
+<<<<<<< HEAD
+=======
+
+>>>>>>> 652c9717724c8d78d40246a7331a85b93320391d
 	.nav__toggle {
 		display: none;
 		position: relative;
 	}
 
+<<<<<<< HEAD
 	nav {
 		display: block;
 
 		.nav {
+=======
+	.nav{
+		display: block;
+
+		ul {
+>>>>>>> 652c9717724c8d78d40246a7331a85b93320391d
 			text-align: right;
 			padding-top: .5em;
 

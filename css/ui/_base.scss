@@ -2,7 +2,17 @@
 Base Layout and Text
 *********************/
 
+html, body {
+	height: 100%;
+}
+
 .wrap {
 	width: 96%;
 	margin: 0 auto;
+}
+
+#container {
+	display: table;
+	height: 100%;
+	width: 100%;
 }

@@ -23,10 +23,11 @@
  * and introducing objects and abstractions is as simple as switching the
  * following variables to `true`.
  */
+$responsive:		true;
 $use-grids:         true;
 $use-flexbox:       false;
 $use-columns:       false;
-$use-nav:           false;
+$use-nav:           true;
 $use-options:       false;
 $use-pagination:    false;
 $use-breadcrumb:    false;
@@ -47,7 +48,6 @@ $use-lozenges:      false;
 $use-rules:         false;
 $use-stats:         false;
 $use-greybox:       false;
-$responsive:		true;
 
 
 
@@ -70,3 +70,10 @@ $responsive:		true;
 
 /* TYPOGRAPHY */
 $serif: "Georgia", serif;
+$sans-serif: "PT Sans", sans-serif;
+$slab-serif: "Arvo", serif;
+
+/* COLORS */
+$gray: #444;
+$medium-gray: #353535;
+$light-gray: #dedede;
